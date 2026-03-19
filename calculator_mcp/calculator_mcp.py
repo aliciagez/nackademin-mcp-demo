@@ -3,7 +3,7 @@ from typing import Annotated
 from pydantic import Field
 from config.custom_logging_config import RequestLoggingMiddleware
 from config.logging_config import configure_logging
-
+#ej
 configure_logging()
 
 mcp = FastMCP("Calculator Server")
